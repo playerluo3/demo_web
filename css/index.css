@@ -1,0 +1,93 @@
+.main {
+    height: 475px;
+}
+
+.news_flash {
+    float: right;
+    width: 249px;
+    height: 455px;
+    margin: 10px 0 0 10px;
+}
+
+.news_flash .news {
+    width: 249px;
+    height: 165px;
+    border: 1px solid #f1f1f1
+}
+
+.news h5 {
+    height: 35px;
+    margin-left: 15px;
+    border-bottom: 1px dashed #f1f1f1;
+    line-height: 35px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.news ul li {
+    margin: 5px 0 0 15px;
+}
+
+.shortcut {
+    width: 249px;
+    height: 210px;
+    border-right: 1px solid #f1f1f1;
+}
+
+.shortcut li a {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-left: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    background: url(../img/icons.png) no-repeat 2px -2px;
+    text-align: center;
+    line-height: 110px;
+}
+
+.shortcut li a:hover {
+    background-color: #f1f1f1;
+}
+
+.shortcut .cut {
+    position: relative;
+}
+
+.shortcut .cut em {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    border-width: 0px 6px 3px 6px;
+    border-color: #fff #589d5a;
+    border-style: solid;
+}
+
+.shortcut .cut h5 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #589d5a;
+    text-align: center;
+    line-height: 12px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.bargain {
+    width: 250px;
+    height: 75px;
+    margin-top: 5px;
+    background: url(../img/bargain.png) no-repeat;
+}
+
+.focus {
+    float: right;
+    width: 720px;
+    height: 455px;
+    margin-top: 10px;
+    background-color: darkcyan;
+    background-image: url(../img/main.png);
+}

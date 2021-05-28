@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* 清除浮动 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+
+input, button {
+    border: 0;
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top_nav {
+    height: 30px;
+    background-color: #f1f1f1;
+}
+
+.top_nav_lf {
+    float: left;
+    line-height: 30px;
+}
+
+.top_nav_lf span {
+    font-size: 12px;
+    color: #666
+}
+
+.top_nav_lf a:last-child {
+    color: #b1191a
+}
+
+.top_nav_rf {
+    float: right;
+    line-height: 30px;
+}
+
+.top_nav_rf ul li {
+    float: left;
+}
+
+.top_nav_rf .down::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 8px;
+}
+
+.top_nav_rf ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+.header {
+    position: relative;
+    height: 106px;
+}
+
+.header .logo {
+    position: absolute;
+    top: 27px;
+    width: 220px;
+    height: 55px;
+    background: url(../img/logo.png) no-repeat;
+}
+
+.header .logo a {
+    display: block;
+    width: 220px;
+    height: 55px;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.header .logo a:active {
+    color: #b1191a;
+}
+
+/* search w538 h36 b1191a*/
+
+.search {
+    position: absolute;
+    top: 27px;
+    left: 347px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    color: #fff;
+}
+
+.hotwords {
+    position: absolute;
+    top: 67px;
+    left: 347px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+/* shopcar w140 h35 */
+
+.shopcar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 250px;
+}
+
+.shopcar button {
+    position: absolute;
+    top: 27px;
+    right: 64px;
+    width: 140px;
+    height: 35px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+}
+
+.shopcar em {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    padding: 0 2px 0 2px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #e60012;
+    text-align: center;
+    font-style: normal;
+    color: #fff;
+    font-size: 13px;
+}
+
+.main_nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.item_dropdown dl {
+    float: left;
+}
+
+.item_dropdown dl dt {
+    width: 209px;
+    height: 47px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    line-height: 47px;
+    text-align: center;
+}
+
+.item_dropdown dl dd a {
+    display: inline-block;
+    width: 209px;
+    height: 31px;
+    padding-left: 12px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    line-height: 31px;
+}
+
+.item_dropdown dl dd a:hover {
+    background-color: #fff;
+    color: #c81623;
+}
+
+.item_dropdown dl dd a::after {
+    font-family: icomoon;
+    float: right;
+    content: '\e920';
+    margin-right: 10px;
+}
+
+.item {
+    float: left;
+    padding-left: 15px;
+}
+
+.item ul li {
+    float: left;
+}
+
+.item ul li a {
+    display: inline-block;
+    height: 44px;
+    margin: 0 22px;
+    line-height: 44px;
+    font-size: 16px;
+}
+
+.item ul li:hover {
+    background-color: #f1f1f1;
+}
+
+.footer {
+    height: 416px;
+    background-color: #f5f5f5;
+}
+
+.footer .services {
+    height: 110px;
+    border-bottom: 1px solid #ededed;
+}
+
+.footer .services ul {
+    padding-top: 30px;
+}
+
+.footer .services ul li {
+    float: left;
+    width: 235px;
+    height: 50px;
+    padding-left: 35px;
+}
+
+.footer .services ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons.png) no-repeat -253px -2px;
+    margin-right: 8px;
+}
+
+.text h4 {
+    font-size: 14px;
+    color: #333;
+}
+
+.text p {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer .copyright {
+    height: 186px;
+    padding: 21px 0 0 50px;
+    border-bottom: 1px solid #ededed;
+}
+
+.footer .copyright dl {
+    float: left;
+    margin-right: 100px;
+}
+
+.footer .copyright dl dt {
+    margin-bottom: 12px;
+}
+
+footer .about {
+    height: 120px;
+    text-align: center;
+}
+
+.about ul li {
+    /* float: left; */
+}
+
+.links {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 12px;
+    color: #666;
+}
+
+.links a {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 12px;
+    border-right: 1px solid #666;
+}
+
+.links a:last-child {
+    border: 0
+}
